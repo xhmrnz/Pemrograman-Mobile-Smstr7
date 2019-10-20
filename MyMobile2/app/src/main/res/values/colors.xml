@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#555555</color>
     <color name="colorPrimaryDark">#252525</color>
-    <color name="colorAccent">#2E2E2E</color>
-    <color name="bgAtas">#00c2c7</color>
+    <color name="colorAccent">#555555</color>
+    <color name="bgAtas">#B4E2E7</color>
     <color name="bgBawah">#0083ff</color>
 </resources>
