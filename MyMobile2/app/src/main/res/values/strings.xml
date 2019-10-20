@@ -2,10 +2,14 @@
     <string name="app_name">MyMobile2</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string-array name="WebUrl">
+    <string name="load">Loading</string>
+    <string name="no_webpage">Tidak ada halaman web yang ditemukan, \n Silahkan ketuk daftar dibawah ini.</string>
+    <string name="load_webpage"> </string>
+    <string-array name="WebPage">
         <item>Google</item>
         <item>Facebook</item>
         <item>Instagram</item>
+        <item>Twitter</item>
         <item>Github</item>
     </string-array>
 </resources>
