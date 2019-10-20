@@ -8,9 +8,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toolbar;
 
 
 /**
@@ -31,18 +32,19 @@ public class FragmentBawah extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_bawah, container, false);
-
         listView = view.findViewById(R.id.listView);
-        adapter = new ArrayAdapter<>(getActivity(),android.R.layout.simple_list_item_1);
-        adapter.add("Google");
-        adapter.add("Yahoo");
-        adapter.add("Facebook");
-        adapter.add("Twitter");
-        adapter.add("Amazon");
+        adapter = new ArrayAdapter<>(getActivity(),android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.WebUrl));
         listView.setAdapter(adapter);
-
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                FragmentAtas fragmentAtas = new FragmentAtas();
+                Bundle bundle = new Bundle();
+                bundle.putString("WebLinks", listView.getItemAtPosition(position).toString());
+                fragmentAtas.setArguments(bundle);
+                getFragmentManager().beginTransaction().add(R.id.FrameAtas,fragmentAtas).commit();
+            }
+        });
         return view;
-
     }
-
 }
