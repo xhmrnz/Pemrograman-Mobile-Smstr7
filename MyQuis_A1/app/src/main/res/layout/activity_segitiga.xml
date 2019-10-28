@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegitigaActivity">
+
+    <TextView
+        android:id="@+id/tv_alas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alas"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+    <EditText
+        android:id="@+id/edt_alas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_alas"
+        android:hint="Masukkan Alas"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_alas"
+        android:text="Tinggi"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+    <EditText
+        android:id="@+id/edt_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tinggi"
+        android:hint="Masukkan Tinggi"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_tinggi"
+        android:text="Hasil"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_hasil"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textSize="24dp"
+        tools:text="total" />
+    <Button
+        android:id="@+id/btn_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_total"
+        android:text="Hitung"
+
+        />
+    <Button
+        android:id="@+id/btn_keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_hasil"
+        android:text="Kembali"
+        android:layout_marginTop="75dp"
+
+        />
+
+</RelativeLayout>

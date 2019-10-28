@@ -11,8 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-import static android.os.Looper.prepare;
-
 public class MainActivity extends AppCompatActivity {
 
         private String[] dataName;

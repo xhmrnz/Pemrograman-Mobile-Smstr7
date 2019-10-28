@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="product_horizontal_margin">32dp</dimen>
+    <dimen name="product_vertical_margin">20dp</dimen>
+    <dimen name="product_image_size">62dp</dimen>
+    <dimen name="product_layout_margin">12dp</dimen>
+    <dimen name="activity_horizontal_margin">15dp</dimen>
+    <dimen name="activity_vertical_margin">15dp</dimen>
+</resources>
