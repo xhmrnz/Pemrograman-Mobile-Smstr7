@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyQuis1</string>
+    <string name="name_rooms">Nama Kamar</string>
+    <string name="lorem">lorem ipsum dolor sit amet</string>
+
+    <string-array name="data_name">
+        <item>Arjuna Hotel Batu</item>
+        <item>Hotel Morissey</item>
+        <item>Arumdalu</item>
+        <item>Artotel</item>
+        <item>IZE Hotel</item>
+        <item>Villa Champa</item>
+        <item>Tebu Hotel</item>
+        <item>DeRain</item>
+        <item>Yudhistira Hotel</item>
+        <item>Vila Air</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Dari luar saja butik hotel yang berada di kawasan urban di Kota Batu, Malang ini sudah terlihat unik. Kamarnya tampil dengan warna putih dominan dan paduan warna natural seperti kremdan cokelat tua. Jendelanya yang banyak tak hanya menambah keindahan interiornya, tetapi juga membuat Anda leluasa melihat ke luar kamar.</item>
+        <item>Hotel yang berada di Jakarta ini tampil dengan sentuhan urban yang kental. Dinding yang menyisakan tekstur asli bahan bangunannya (batu-bata ekspos) bersanding harmonis dengan dinding kaca yang membatasi kamar dengan kamar mandi; cocok untuk Anda yang ingin berlibur setelah menyelesaikan setumpuk deadline di kantor.</item>
+        <item>Berada di kawasan Bangka Belitung yang dikelilingi indahnya laut, penginapan satu ini berhasil menyuguhkan sesuatu yang modern, namun tetap diberi sentuhan tradisional. Bayangkan Anda menginap di kamar yang view-nya langsung menghadap ke kolam renang ini.</item>
+        <item>Bagi Anda yang berjiwa muda dan menyukai seni, Artotel yang berada di Jakarta ini adalah lokasi menginap yang tidak boleh Anda lewatkan. Dengan hiasan berbagai macam lukisan mural dan graffiti, bangunan ini termasuk kamarnya akan memanjakan mata Anda yang haus akan seni.</item>
+        <item>Hotel yang berada di kawasan Seminyak, Bali ini menonjolkan suasana marine yang lekat dengan pantai. Tak hanya memiliki detail dinding yang artistik, suasana kamar yang langsung menghadap ke kolam renang akan membuat Anda betah menginap di sini.</item>
+        <item>Penginapan berkonsep villa ini tak hanya memiliki pemandangan sekitar yang menakjubkan. Ada berbagai macam kamar yang bisa Anda jadikan pilihan: ingin yang view-nya ke kolam renang atau ke pemandangan alam sekitar, terserah Anda. Dekorasi kamarnya pun sangat elegan dan simpel dengan sentuhan komponen alam seperti kayu.</item>
+        <item>Hotel yang berada di Jakarta ini sangat minimalis, termasuk desain kamarnya yang mengandalkan warna kayu dan putih. Dua jendelanya yang besar dan langit-langitnya yang tinggi membuat Anda tetap merasa nyaman di dalamnya.</item>
+        <item>Hotel yang berada di kawasan Bandung ini tampil dengan eksterior yang mengandalkan warna-warna alami materialnya. Di malam hari, lampu warna-warni membuat bangunannya tampak mencolok. Untuk kamar tidur, DeRain juga memilih gradasi warna cokelat tua hingga putih. Kursi santai di depan jendela bisa dijadikan tempat beristirahat sambil membaca buku atau mendengarkan musik.</item>
+        <item>Hotel satu ini masih dalam tahap pembangunan. Berlokasi di salah satu kota di Provinsi Jawa Tengah, hotel ini masih memberikan sentuhan ala Jawa lewat detail ukiran dan hiasan di dindingnya. Desain interior kamar tampil lebih modern dengan santuhan warna abu-abu. Hiasan kayu, wayang golek di dinding, serta tumbuhan hijau membawa kesan natural yang membuat suasana lebih hidup.</item>
+        <item>Mencari hotel dengan suasana alam yang asri, Bandung adalah tempatnua. Vila Air yang berada di kawasan Lembang ini memberikan Anda pengalaman menginap di kamar serba kayu dengan pamandangan hutan hujan tropis yang menyejukkan.</item>
+    </string-array>
+    <array name="data_photo">
+        <item>@drawable/kamarno1</item>
+        <item>@drawable/kamarno2</item>
+        <item>@drawable/kamarno3</item>
+        <item>@drawable/kamarno4</item>
+        <item>@drawable/kamarno5</item>
+        <item>@drawable/kamarno6</item>
+        <item>@drawable/kamarno7</item>
+        <item>@drawable/kamarno8</item>
+        <item>@drawable/kamarno9</item>
+        <item>@drawable/kamarno10</item>
+    </array>
+</resources>
