@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rv_league" type="id"/>
+    <item name="img_league" type="id"/>
+    <item name="tv_league_name" type="id"/>
+    <item name="tv_description" type="id"/>
+    <item name="tv_league_description" type="id"/>
+</resources>
