@@ -1,0 +1,45 @@
+package com.ilham.myfoodcatalogue.model;
+
+import java.util.ArrayList;
+
+public class FoodData {
+    public static String[][] data = new String[][]{
+            {"Gado-gado", "Makanan khas Jawa yang bisa disebut sebagai \"saladnya\" Indonesia ini cukup terkenal di luar negeri, terutama di Napoli, Italia. Hal ini dikarenakan gado-gado pernah diikutsertakan dalam kompetisi yang bersaing dengan hidangan dari negara-negara lainnya dan meraih juara pertama. Terhitung dari nilai estetika yang dimiliki, keunikan bahan yang digunakan, serta cita rasa yang dinilai sangat tinggi.", "https://cdn.idntimes.com/content-images/post/20180810/4dcd8e5c9b5eb1758ff33f70174ed835.jpg", "15.000"},
+            {"Sop buntut", "Sop buntut sapi, selain digemari masyarakat Indonesia, ternyata juga disukai penduduk Spanyol. Mereka menyukai makanan ini sejak pertama kali kedutaan Indonesia di Italia mengenalkan keanekaragaman makanan khas kita. Kesukaan rakyat Spanyol akan hidangan sapi pun terpuaskan dengan adanya sop buntut ini.", "https://cdn.idntimes.com/content-images/post/20180810/12afed2483aa255d18670ec96dceabc4.jpg", "30.000"},
+            {"Rendang", "Selain disukai masyarakat Indonesia, makanan khas Sumatera Barat ini juga tersohor hingga seluruh penjuru dunia. Rendang berada di posisi pertama dalam jajaran 50 makanan dunia terenak versi CNN yang diadakan di Jerman beberapa waktu lalu. Rasanya yang khas dan keempukan dagingnya menjadi faktor penentu utama.", "https://cdn.idntimes.com/content-images/post/20180810/56525698751feab3935c2457a35474e5.jpg", "25.000"},
+            {"Nasi goreng", "Setiap negara memiliki menu nasi goreng. Namun, rasa nasi goreng Indonesia lebih khas karena memakai bumbu lengkap. Gak heran kalau nasi goreng Indonesia juga sempat masuk dalam daftar makanan terenak di dunia. Presiden Amerika Serikat ke-44 Barrack Obama pun sangat menyukai nasi goreng khas Indonesia.", "https://cdn.idntimes.com/content-images/post/20180810/5e31520bb203e7dd6b3d9e12017c569c.jpg", "20.000"},
+            {"Mie goreng", "Pasangan nasi goreng ini bisa kamu temukan di mana-mana. Variasi bumbu dan bahan membuat lezatnya mie goreng khas Indonesia tak tertandingi.", "https://cdn.idntimes.com/content-images/post/20180810/870837c3abcbe2a1f9653ab6bd7831d8.jpg", "10.000"},
+            {"Bakso", "Kuah sup dan mie memang menjadi bagian dari pelengkap bakso. Kita bisa menemukan bakso di mana pun. Ternyata bakso jadi salah satu makanan favorit warga Tiongkok lho. Pasalnya, bakso yang ada di Indonesia dibuat dari daging sapi yang lebih menggugah selera, ditambah dengan gorengan atau pangsit untuk melengkapinya.", "https://cdn.idntimes.com/content-images/post/20180811/f11ea181b5f99a5237aa4a95340b28c,d.jpg", "15.000"},
+            {"Sate", "Sate Padang dan sate Madura menjadi varian yang paling dikenal sekaligus favorit banyak orang. Belakangan, tidak hanya wisatawan asing yang mencari dan ingin mencoba sate, tetapi sejumlah restoran internasional telah memasukkan sate dalam menunya. Di New York, terdapat sebuah restoran bernama Satay Junction yang menyediakan sate ayam sebagai hidangan andalannya.", "https://makananoleholeh.com/wp-content/uploads/2017/07/Sate-Khas-Indonesia.jpg?ezimgfmt=rs:630x372/rscb2/ng:webp/ngcb2", "20.000"},
+            {"Gudeg", "Makanan khas Yogyakarta ini telah menarik perhatian masyarakat Indonesia, bahkan di kalangan internasional. Pasalnya, banyak negara yang ingin mengimpornya dalam bentuk kalengan. Menariknya lagi, di Melbourne, Australia, terdapat satu restoran yang telah menyajikan gudeg asli dari Indonesia, tepatnya di Clayton Road.", "https://cdn.idntimes.com/content-images/post/20180811/e516afd46ece90badc8634565f4b40e2.jpg", "15.000"},
+            {"Soto", "Indonesia memiliki banyak varian soto yang tersebar di berbagai wilayah, antara lain soto Betawi, coto Makassar, soto ayam, soto sapi, dan soto babat. Keunikan setiap rempah dan ciri khas masing-masing inilah yang membuat soto menjadi salah satu makanan ternama di dunia. Masyarakat Ibaraki, Jepang, pun telah terbiasa dengan cita rasa yang telah diperkenalkan beberapa pelajar Indonesia yang ada di sana.\n" +
+                    "\n", "https://cdn.idntimes.com/content-images/post/20180812/7b0eed69883547ec456cc58125fe4c5a.jpg", "20.000"},
+            {"Pempek Palembang", "Empek-empek atau sering dinamakan dengan sebutan pempek merupakan makanan khas Indonesia yang berasal dari daerah Palembang, Sumatera Selatan. Makanan khas ini umumnya terbuat dari ikan dan sagu. Namun makanan ini tidak hanya terdapat di daerah Palembang saja akan tetapi sudah banyak masyarakat Sumatera Selatan yang memproduksinya.\n" +
+                    "\n", "https://alidesta.files.wordpress.com/2015/04/empek-empek.jpg?w=921&h=614", "10.000"},
+            {"Bubur Manado", "Bubur Manado atau bubur Tinutuan merupakan makanan khas favorit dari Pulau Sulawesi. Tinutuan dalam bahasa Manado berarti campur aduk. Di dalam bubur Manado terdapat sayur-sayuran yang beragam, lauk hewani seperti ikan, dan lauk nabati seperti tahu dan tempe.", "https://alidesta.files.wordpress.com/2015/04/bubur-manado1.jpg?w=920&h=586", "15.000"},
+            {"Kerak Telor", "Makanan khas dari Jakarta yang satu ini sebenarnya merupakan perpaduan dari kuliner Portugis. Kerak telor mudah ditemui di Jakarta terutama pada saat diadakannya  Pekan Raya Jakarta bahkan kerak telor acap kali dijadikan simbol kuliner klasik budaya Betawi.", "https://alidesta.files.wordpress.com/2015/04/keraktelor.jpg?w=920&h=730", "10.000"},
+            {"Nasi Uduk", "Nasi uduk biasanya dimakan bersama lauk tambahan seperti telur dadar iris, tempe orek, udang goreng, empal, dan bahkan sayur asem atau lalapan. Saat ini nasi uduk telah menyebar ke berbagai daerah sehingga komposisi bahan yang digunakan juga mulai beragam.", "https://makananoleholeh.com/wp-content/uploads/2017/07/Nasi-Uduk-Khas-Indonesia.jpg?ezimgfmt=rs:630x372/rscb2/ng:webp/ngcb2", "10.000"},
+            {"Nasi Padang", "Mengulas tentang nasi padang maka tak hanya berbicara soal nasi, tetapi juga seluruh lauk pauknya yang rasanya terkenal pedas dan bersantan. Ada berbagai pilihan lauk yang bisa dipilih pada makanan khas Indonesia yang berasal dari Sumatera Barat ini.", "https://makananoleholeh.com/wp-content/uploads/2017/07/Nasi-Padang-Khas-Indonesia.jpg?ezimgfmt=rs:630x372/rscb2/ng:webp/ngcb2", "20.000"},
+            {"Ayam Goreng", "Di Indonesia sendiri ayam goreng telah menjadi panganan kesukaan banyak penduduk. Tepung ayam yang renyah yang bertemu dengan cocolan saus sambal atau tomat telah menjadi ciri khas orang Indonesia dalam menyantap ayam goreng.", "https://makananoleholeh.com/wp-content/uploads/2017/07/Ayam-Goreng-Khas-Indonesia.jpg?ezimgfmt=rs:630x372/rscb2/ng:webp/ngcb2", "15.000"},
+            {"Bakmi", "Pesatnya persebaran warga Tionghoa ke negara-negara Asia Tenggara, seperti Indonesia, menimbulkan pengaruh tersendiri dalam berbagai aspek di negara tersebut, seperti kulinernya.", "https://makananoleholeh.com/wp-content/uploads/2017/07/Bakmi-Khas-Indonesia.jpg?ezimgfmt=rs:630x372/rscb2/ng:webp/ngcb2", "30.000"},
+            {"Rawon", "Rawon adalah menu masakan tradisional khas Indonesia andalan penduduk Jawa Timur yang mempunyai banyak sekali penggemar. Hidangan tradisional bernama rawon ini mempunyai bentuk seperti sup daging dengan kuah yang berwarna cokelat pekat cenderung hitam.", "https://makananoleholeh.com/wp-content/uploads/2017/07/Rawon-Khas-Indonesia.jpg?ezimgfmt=rs:630x372/rscb2/ng:webp/ngcb2", "15.000"},
+            {"Pecel Lele", "Pecel lele [nama lain: pecak lele] adalah makanan khas Indonesia berbahan dasar ikan yang sejak dulu disukai oleh masyarakat lokal, mulai dari kalangan dewasa, remaja, hingga anak-anak. Pecel lele bisa dengan mudah ditemui di dataran Jawa.", "https://makananoleholeh.com/wp-content/uploads/2017/07/Pecel-Lele-Khas-Indonesia.jpg?ezimgfmt=rs:630x372/rscb2/ng:webp/ngcb2", "12.000"},
+            {"Opor Ayam", "Opor ayam adalah makanan yang diklaim berasal dari kawasan Jawa Tengah dan Jawa Timur bagian barat. Olahan ayam ini menyajikan ayam yang direbus dengan bumbu kental dari santan bersama tambahan bumbu lain seperti serai, kencur, dan lainnya.", "https://makananoleholeh.com/wp-content/uploads/2017/07/Opor-Ayam-Khas-Indonesia.jpg?ezimgfmt=rs:630x372/rscb2/ng:webp/ngcb2", "20.000"},
+            {"Seblak", "Seblak is a Southeast Asian savoury and spicy dish, originating from Indonesia, made of wet krupuk cooked with protein sources in spicy sauce. Seblak is a specialty of Bandung city, West Java, Indonesia. Seblak can be acquired from restaurants, warungs or gerobak street", "https://selerasa.com/wp-content/uploads/2018/11/seblak-bandung-kumplit-500x375.jpg", "15.000"},
+    };
+
+    public static ArrayList<Food> getListData() {
+        ArrayList<Food> list = new ArrayList<>();
+        for (String[] aData : data) {
+            Food food = new Food();
+            food.setName(aData[0]);
+            food.setDesc(aData[1]);
+            food.setPhoto(aData[2]);
+            food.setHarga(aData[3]);
+
+            list.add(food);
+        }
+
+        return list;
+    }
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txt_geser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentLeft="true"
+        android:text="Indonesian Traditional Drink"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/txt_geser"
+        android:layout_marginTop="6dp"
+        android:overScrollMode="never"
+        android:clipToPadding="false"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center" />
+
+    <TextView
+        android:id="@+id/txt_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerview"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Informasi"/>
+
+    <TextView
+        android:id="@+id/txt_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_info"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:text="Harga"/>
+    <TextView
+        android:id="@+id/txt_jam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_harga"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:text="Keterangan"/>
+
+    <TextView
+        android:id="@+id/isi_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_info"
+        android:layout_toRightOf="@id/txt_harga"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:text="Bisa di nego"/>
+    <TextView
+        android:id="@+id/isi_jam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_harga"
+        android:layout_toRightOf="@id/txt_jam"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:text="Tidak boleh ngutang"/>
+
+
+</RelativeLayout>
