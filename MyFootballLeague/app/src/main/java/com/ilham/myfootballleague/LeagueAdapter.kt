@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import com.bumptech.glide.Glide
 import org.jetbrains.anko.*
 import org.jetbrains.anko.cardview.v7.cardView
@@ -35,7 +34,7 @@ class LeagueAdapter (private val context: Context, private val items: List<Leagu
             Glide.with(itemView.context).load(items.logo).into(imgLeague)
             tvLeagueName.text = items.name
             itemView.setOnClickListener {
-
+                itemView.context.startActivity<DetailActivity>("league" to items)
             }
         }
     }

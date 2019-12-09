@@ -35,7 +35,7 @@ class RecyclerViewAdapter(
             items.image?.let { Picasso.get().load(it).fit().into(image)}
             itemView.setOnClickListener {
                 listener(items)
-
+                
             }
         }
     }
